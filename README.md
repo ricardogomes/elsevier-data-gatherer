@@ -1,2 +1,5 @@
-# scopus-data-gatherer
-Tools to connect to the Scopus API and gather data
+# Elsevier Data Gatherer
+
+Tools to connect to the Elsevier APIs, gather and process data.
+
+

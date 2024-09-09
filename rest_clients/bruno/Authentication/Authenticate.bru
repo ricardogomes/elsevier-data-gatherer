@@ -1,0 +1,15 @@
+meta {
+  name: Authenticate
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/authenticate?apiKey={{apiKey}}
+  body: none
+  auth: none
+}
+
+query {
+  apiKey: {{apiKey}}
+}

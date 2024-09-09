@@ -1,0 +1,18 @@
+meta {
+  name: Search
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{url}}/content/search/scopus?apiKey={{apiKey}}&query=KEY(blockchain OR "distributed ledger" OR "decentralized distibuted ledger")&date=2015-2024&count=25
+  body: none
+  auth: none
+}
+
+query {
+  apiKey: {{apiKey}}
+  query: KEY(blockchain OR "distributed ledger" OR "decentralized distibuted ledger")
+  date: 2015-2024
+  count: 25
+}
